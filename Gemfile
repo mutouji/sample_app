@@ -15,6 +15,8 @@ gem 'uglifier', '3.0.2'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '4.0.1'
 
+gem 'bootstrap-sass', '2.3.2.0'
+
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
@@ -33,7 +35,7 @@ group :doc do
 end
 
 group :development, :test do
-	gem 'rspec-rails', '2.13.1'
+	gem 'rspec-rails', '3.5.0'
 	#gem 'guard-rspec', '2.5.0'
 	#gem 'spork-rails', github:'railstutorial/spork-rails'
 	#gem 'guard-spork', '1.5.0'

@@ -5,6 +5,12 @@ $grayLight: #d3d3d3;
 $gray: #808080;
 $grayDarker: #A9A9A9;
 
+@mixin box_sizing{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body {
   padding-top : 60px;
 }
@@ -92,5 +98,14 @@ footer {
       float: left;
       margin-left: 10px;
     }
+  }
+
+  /* miscellaneous */
+  .debug_dump {
+    clear: both;
+    float: left;
+    width: 100%;
+    margin-top: 45px;
+    @include box_sizing;
   }
 }

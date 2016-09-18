@@ -95,6 +95,13 @@ describe "Static pages" do
     # end
   end
 
+  # describe "profile page" do
+  #   before { visit user_path(user) }
+  #
+  #   it { should have_content(user.name) }
+  #   it { should have_title (user.name) }
+  # end
+
   it "should have the right links on the layout" do
     visit root_path
     click_link "About"

@@ -37,7 +37,8 @@ group :doc do
 end
 
 group :development, :test do
-	gem 'rspec-rails', '3.5.0'
+	#gem 'rspec-rails', '3.5.0'
+	gem 'rspec-rails'
 	#gem 'guard-rspec', '2.5.0'
 	#gem 'spork-rails', github:'railstutorial/spork-rails'
 	#gem 'guard-spork', '1.5.0'
@@ -45,8 +46,12 @@ group :development, :test do
 end
 
 group :test do
-	gem 'selenium-webdriver', '2.53.4'
+	#gem 'selenium-webdriver', '2.53.4'
+	#gem 'capybara', '2.8.1'
+	#gem 'factory_girl_rails', '4.2.1'
+	gem 'selenium-webdriver'
 	gem 'capybara', '2.8.1'
+	gem 'factory_girl_rails'
 end
 
 # Use ActiveModel has_secure_password

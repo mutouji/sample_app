@@ -52,6 +52,8 @@ group :test do
 	gem 'selenium-webdriver'
 	gem 'capybara', '2.8.1'
 	gem 'factory_girl_rails'
+	# gem 'cucumber-rails', '1.3.0', :require => false
+	# gem 'database_cleaner', github: 'bmabey/database_cleaner'
 end
 
 # Use ActiveModel has_secure_password
